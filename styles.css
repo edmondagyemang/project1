@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menuitem {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menuitem a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.menuitem a img {
+    margin-right: 5px;
+}
+
+.menuitem a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+}
+
+.car-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.car-image {
+    width: 18%;
+    text-align: center;
+}
+
+.car-image img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
