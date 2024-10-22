@@ -23,5 +23,3 @@ styles.css: This stylesheet contains the CSS rules for styling the entire websit
  Image and Style Display Issues. Images weren’t displaying correctly due to incorrect file paths and references, so I corrected all the image paths by using relative URLs based on the folder structure of the project. Additionally, I ensured that CSS rules were applied correctly by linking the styles.css file across all pages. Also, merging index.php and home.html. Both index.php and home.html were serving as the homepage, which caused confusion and inconsistencies. I decided to unify the content from home.html into index.php and retired the home.html file to avoid redundancy. This created a single, consistent homepage experience for users.
 
 Finally, initial form submissions in processorder.php didn’t handle user input properly, causing errors when users tried to submit their booking requests, so I adapted and extended the form handling code from Chapter 7 by adding better validation checks and error messages to improve the user experience.
-![image](https://github.com/user-attachments/assets/dad7cd45-4704-4429-9583-1a11995ffd27)
-
